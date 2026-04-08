@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Find_the_way_out V2.sln"
+    "dotnet.defaultSolution": "Find-The-Way-Out.sln"
 }
