@@ -27,17 +27,17 @@ public class DoorKeysManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 1; i < doors.Count; i++)
-        {
-            if(Events.Dotrigger() == 0) return;
+        // for (int i = 1; i < doors.Count; i++)
+        // {
+        //     if(Events.Dotrigger() == 0) return;
             
-            if(Events.Dotrigger() == doors[i].DoorId)
-            {
-                // Debug.Log($"Key {Events.Dotrigger()}");
+        //     if(Events.Dotrigger() == doors[i].DoorId)
+        //     {
+        //         // Debug.Log($"Key {Events.Dotrigger()}");
                 
-                Debug.Log($"Door No {Events.Dotrigger()} is Unlocked");
-                doors[i].m_doorState = DoorState.Unlocked;
-            }
-        }
+        //         Debug.Log($"Door No {Events.Dotrigger()} is Unlocked");
+        //         doors[i].m_doorState = DoorState.Unlocked;
+        //     }
+        // }
     }
 }

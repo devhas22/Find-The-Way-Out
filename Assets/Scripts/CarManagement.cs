@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Cinemachine;
+
 using UnityEngine;
 
 public class CarManagement : MonoBehaviour
@@ -10,7 +10,7 @@ public class CarManagement : MonoBehaviour
     [SerializeField] CarInfo m_currentCar;
     [SerializeField] PersonInfo m_personInfo;
     [SerializeField] List<CarInfo> m_carInfo;
-    [SerializeField] CinemachineVirtualCamera m_cinemachineVirtualCamera;
+    [SerializeField] Unity.Cinemachine.CinemachineVirtualCamera m_cinemachineVirtualCamera;
 
     public void OnEnable()
     {

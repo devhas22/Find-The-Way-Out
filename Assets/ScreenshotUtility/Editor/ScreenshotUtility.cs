@@ -464,7 +464,7 @@ public sealed class ScreenshotUtility : EditorWindow
         float originalOthoSize = sourceCamera.orthographicSize;
 
 #if CINEMACHINE
-        Cinemachine.CinemachineBrain cBrain = sourceCamera.GetComponent<Cinemachine.CinemachineBrain>();
+        Unity.Cinemachine.CinemachineBrain cBrain = sourceCamera.GetComponent<Unity.Cinemachine.CinemachineBrain>();
         bool cBrainEnable = false;
         if (cBrain) cBrainEnable = cBrain.enabled;
 #endif
