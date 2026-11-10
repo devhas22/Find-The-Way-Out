@@ -17,7 +17,7 @@ public class DoorPhysics : MonoBehaviour
     void Start()
     {
         transform.tag = "Door";
-        NumberText.text = DoorId.ToString();
+        // NumberText.text = DoorId.ToString();
         m_rigidbody = GetComponent<Rigidbody>();
     }
 
