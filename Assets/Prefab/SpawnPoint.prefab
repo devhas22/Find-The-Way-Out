@@ -66,6 +66,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec047c7ccb99124b8fda953524eb304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_radiusSize: 10
+  m_radiusSize: 40
   m_objectKey: Wall
   sphereCollider: {fileID: 8142889437037952546}
